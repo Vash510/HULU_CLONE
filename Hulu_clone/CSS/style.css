@@ -74,6 +74,11 @@ h4 {
     border-color: #ccc;
 }
 
+.btn-sub {
+    width: 100%;
+    margin-top: 10px;
+}
+
 .legal-text {
     font-size: 10px;
     color: #ccc;
@@ -89,7 +94,7 @@ h4 {
 }
 
 .text-xl {
-    font-size: 70px;
+    font-size: 60px;
     font-weight: bold;
 }
 
@@ -97,6 +102,10 @@ h4 {
     max-width: 850px;
     margin-bottom: 10px;
     font-size: 24px;
+}
+
+.bold {
+    font-weight: 700;
 }
 
 .btn-dark {
@@ -274,8 +283,8 @@ h4 {
 
  /* Live Sports */
 
- .live-sports {
-     background: url('../Assets/img/live-sports.jpg') no-repeat center center / cover;
+ .spotlight {
+    background: url('../Assets/img/live-sports.jpg') no-repeat center center / cover;
     height: 800px;
     position: relative;
     }
@@ -308,6 +317,58 @@ h4 {
         width: 40px;
     }
 
+/* Plans */
+
+.plan-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-container .t-heading {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 10px;
+    width: 80%;
+    height: 180px;
+    border-top: 1px #333 solid;
+    padding: 15px;
+}
+
+.rounded-background {
+    height: 20px;
+    text-transform: uppercase;
+    background-color: #00ed82;
+    color: #333;
+    padding: 10px;
+    border-radius: 16px;
+    font-size: 12px;
+}
+
+.column {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.column img {
+    max-width: 160px;
+}
+
+.subheading {
+    margin-top: 10px;
+}
 
 /* Footer */
 .footer {
